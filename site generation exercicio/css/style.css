@@ -26,14 +26,27 @@
     }
 
     nav h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
+    }
+    .navMenu {
+        display: flex;
+        width: 40%;
+        height: 20px;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9rem;
+        justify-content: space-around;
+    }
+
+    .navMenu a{
+        color: #a77676;
     }
 
     h1 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 4rem;
+        font-size: 2.4rem;
         text-align: center;
     }
 
@@ -42,7 +55,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 650px;
+        height: 500px;
     }
 
     .detalhes {
@@ -51,14 +64,14 @@
         align-items: flex-start;
         justify-content: space-around;
         height: 400px;
-        width: 25%;
+        width: 23%;
         padding-left: 100px;
         font-family: 'Poppins', sans-serif;
     }
 
-    .detalhes imput {
+    .detalhes input {
         width: 80%;
-        height: 60px;
+        height: 50px;
         padding: 0 16px;
         font-family: 'Poppins', sans-serif;
         border: none;
@@ -70,13 +83,14 @@
 
     .detalhes button {
         width: 50%;
-        height: 60px;
+        height: 50px;
         background: #463232;
         font-family: 'Poppins', sans-serif;
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         border: none;
         outline: none;
+        box-shadow: 5px 5px 5px black;
     }
 
     .empresas {
@@ -113,9 +127,10 @@
         background: #463232;
         font-family: 'Poppins', sans-serif;
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1rem;
         border: none;
         outline: none;
+        box-shadow: 5px 5px 5px black;
     }
 
     #detalhes {
@@ -124,7 +139,8 @@
         background: #fff;
         font-family: 'Poppins', sans-serif;
         color: #463232;
-        font-size: 1.3rem;
+        font-size: 1rem;
         border: 1px solid #463232;
         outline: none;
+        box-shadow: 5px 5px 5px grey;
     }
