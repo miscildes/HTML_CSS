@@ -374,6 +374,8 @@
 
     .input-modal {
         display: block;
+        display: flex;
+        flex-direction: column;
         width: 60%;
         margin: 0 auto;
         align-items: center;
@@ -381,9 +383,35 @@
         text-align: center;
     }
 
+    .input-modal button {
+        cursor: pointer;
+        width: 30%;
+        height: 30px;
+        background: #463232;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 1rem;
+        border: 1px solid #463232;
+        outline: none;
+        box-shadow: 3px 3px 3px grey;
+    }
+
+    #myBtn {
+        cursor: pointer;
+    }
+
+    .input-modal input {
+        width: 50%;
+        height: 30px;
+        padding: 0 10px;
+        font-family: 'Poppins', sans-serif;
+        border: none; 
+    }
+
     .close {
         color: #463232;
         font-size: 28px;
         font-weight: bold;
         float: right;
+        cursor: pointer;
     }
