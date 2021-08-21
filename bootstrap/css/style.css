@@ -2,12 +2,15 @@
 .logo {
     font-family: 'Barlow', sans-serif;
     font-size: 1.4rem;
+    text-shadow: white 0.1em 0.1em 0.2em
 }
 
 .centralizar-link {
     margin: 0 auto;
     font-family: 'Barlow', sans-serif;
     font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: whitesmoke 0.01em 0.01em 0.2em
 }
 
 .navbar {
@@ -18,29 +21,38 @@
     margin: 0 15px;
 }
 
-
 .espaco2 {
-    padding: 55px 0;
-    background-color: rgb(231, 216, 245);
+    padding: 155px 0;
+    background-image: url("../img/chef.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    height: 426px;
 }
 
 #tituloP {
     font-family: 'Allison', cursive;
     font-size: 6rem;
     padding: 0 10px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .paragrafo {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.6rem;
     padding: 10px 10px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
 
 }
 
 .formulario {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.2rem;
-    padding: 0 10px;
+    background-color: rgb(231, 216, 245);
+    padding: 60px 10px 0;
+    color: black; 
+    text-shadow: white 0.1em 0.1em 0.2em
 }
 
 .botaoC {
@@ -50,6 +62,7 @@
     font-size: 1.3rem;
     padding: 0 5px;
     color: black;
+    text-shadow:white  0.1em 0.1em 0.2em;
     background-color:rgb(222, 193, 248);
     border: rgb(222, 193, 248);
 }
@@ -57,8 +70,9 @@
 .comofunciona {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 3rem;
-    padding: 50px 10px 0;
+    padding: 40px 10px 0;
     text-align: center;
+    
 
 }
 
@@ -80,6 +94,8 @@
     padding: 30px 10px;
     text-align: center;
     background-color: rgb(222, 193, 248);
+    color: black; 
+    text-shadow: white 0.1em 0.1em 0.2em
 }
 
 .posicaocarrossel {
@@ -117,6 +133,8 @@
     padding: 30px 10px;
     text-align: center;
     background-color: rgb(222, 193, 248);
+    color: black; 
+    text-shadow: white 0.1em 0.1em 0.2em
 }
 
 .posicaocard {
@@ -132,13 +150,14 @@
 
 .paragrafocard {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .botaoreceita {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.3rem;
     color: black;
+    text-shadow:white  0.1em 0.1em 0.2em;
     background-color: rgb(231, 216, 245);
     border: rgb(231, 216, 245);
 }
